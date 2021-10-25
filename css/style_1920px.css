@@ -1,0 +1,18 @@
+/*1920px*/
+
+@media screen and (min-width: 1920px) {
+    body{ background-color: rgb(249,248,253);}
+  /*signUp区域*/
+  .signUp{
+      max-width: 1920px;
+      margin: 0 auto;
+     
+  }
+
+  /*main区域*/
+  main {
+    width: 100%;
+    background-color: white;
+    padding-top: 0.5rem;
+  }
+}

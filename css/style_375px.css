@@ -1,0 +1,143 @@
+/*375px*/
+
+@media screen and (min-width: 375px) {
+
+  /* 导航区域*/
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.2rem;
+    width: 100%;
+  }
+  nav .logo-black {
+    width: 2rem;
+  }
+
+  nav .icon-meun {
+    width: 0.4rem;
+  }
+  nav .signIn {
+    font-size: 0.35rem;
+    font-weight: 400;
+    color: rgb(171, 171, 174);
+  }
+
+  /*signUp区域*/
+  .signUp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(249, 248, 253);
+  }
+  
+  .banner img {
+    height: 100%;
+    width: 90%;
+    margin: 1.2rem 0 0.55rem 0.4rem;
+  }
+  .signUp-botton {
+    margin-top: 1.6rem;
+  }
+  .signUp-botton div:nth-child(1) {
+    font-size: 0.6rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 0.65rem;
+  }
+  .signUp-botton div:nth-child(2) {
+    font-size: 0.35rem;
+    text-align: center;
+    margin: 0.3rem auto;
+  }
+  .signUp input {
+    display: block;
+    background-color: rgb(234, 76, 137);
+    color: aliceblue;
+    border-radius: 0.2rem;
+    border-color: rgb(234, 76, 137);
+    padding: 0.3rem 0.3rem;
+    margin: 0 auto;
+  }
+
+  /*main区域*/
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    
+    margin: 0 auto;
+  }
+  .cover img {
+    border-radius: 0.2rem;
+  }
+  .coverUnder {
+    display: flex;
+    justify-content: space-between;
+  }
+  .coverUnder_left {
+    display: flex;
+    align-items: center;
+  }
+  .coverUnder_left div {
+    margin-right: 0.2rem;
+  }
+  .coverUnder_right {
+    display: flex;
+    align-items: center;
+  }
+  .coverUnder_right div {
+    margin-left: 0.12rem;
+  }
+  .name {
+    font-size: 0.28rem;
+    font-weight: 600;
+  }
+  .badge {
+    font-size: 0.2rem;
+    font-weight: 600;
+    color: seashell;
+    background-color: rgb(203, 203, 203);
+    border-radius: 0.05rem;
+  }
+  .likes,
+  .views {
+    font-size: 0.3rem;
+    font-weight: 400;
+  }
+  .icon-like,
+  .icon-view {
+    width: 0.3rem;
+    margin-bottom: 0.13rem;
+  }
+  .avatar img {
+    border-radius: 50%;
+  }
+  .main_grid {
+    margin-bottom: 0.7rem;
+  }
+
+  /*footer区域*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+    margin-top: 1.5rem;
+    background-color: rgb(250, 250, 250);
+  }
+  footer div img {
+    width: 2.3rem;
+  }
+  footer div:nth-child(1) {
+    margin-top: 0.6rem;
+    margin-left: 0.3rem;
+  }
+  footer div:nth-child(2) {
+    margin-bottom: 1.2rem;
+    font-size: 0.35rem;
+    margin-left: 0.3rem;
+  }
+}

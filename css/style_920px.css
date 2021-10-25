@@ -1,0 +1,68 @@
+/*920px*/
+
+/* 导航区域*/
+@media screen and (min-width: 920px) {
+  .nav_unFold {
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.2rem;
+    width: 100%;
+    background-color: white;
+  }
+  .nav_unFold_left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    color: rgb(119, 116, 130);
+    font-weight: 600;
+  }
+  .nav_unFold_left div img {
+    width: 1.2rem;
+  }
+  .nav_unFold_left div {
+    margin-left: 0.1rem;
+  }
+  .nav_unFold_left div:nth-child(n + 2) {
+    font-size: 0.2rem;
+  }
+  .nav_unFold_left div:nth-child(n + 2):hover{
+    color:rgb(218,174,195);
+    cursor: pointer;
+
+  }
+  .nav_unFold_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+  }
+  .nav_unFold_right div {
+    margin-right: 0.2rem;
+  }
+  .nav_unFold_right input {
+    display: block;
+    background-color: rgb(234, 76, 137);
+    color: aliceblue;
+    border-radius: 0.12rem;
+    padding: 0.14rem 0.2rem;
+    margin: 0 auto;
+    font-size: 0.17rem;
+    font-weight: 600;
+  }
+  .nav_unFold_right > div {
+    font-size: 0.17rem;
+    font-weight: 600;
+    color: rgb(119, 116, 130);
+  }
+  
+
+  /*signUp区域*/
+  .signUp-botton div:nth-child(1) {
+    padding-right: 0;
+    font-size: 0.36rem;
+  }
+}

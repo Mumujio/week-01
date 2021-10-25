@@ -1,0 +1,72 @@
+/*1366px*/
+
+
+
+@media screen and (min-width: 1366px) {
+  br {
+    display: none;
+  }
+
+  /*signUp区域*/
+  .signUp {
+    height: 3.8 rem;
+  }
+  .signUp-botton {
+    width: 60%;
+  }
+  .banner {
+    width: 40%;
+    margin-right: 0.6rem;
+  }
+  .signUp-botton div:nth-child(1) {
+    font-size: 0.4rem;
+  }
+  .signUp-botton div:nth-child(2) {
+    font-size: 0.16rem;
+  }
+  .signUp input {
+    display: inline-block;
+    background-color: rgb(234, 76, 137);
+    color: aliceblue;
+    border-radius: 0.1rem;
+    border-color: rgb(234, 76, 137);
+    padding: 0.1rem 0.2rem;
+  }
+  .banner img {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  /*main区域*/
+  main {
+    grid-template-columns: repeat(auto-fill, minmax(1.75rem, 1fr));
+    padding: 0px 68.302px;
+  }
+  .coverUnder_left div {
+    margin-right: 0.05rem;
+  }
+  .name {
+    font-size: 0.06rem;
+    font-weight: 600;
+  }
+  .coverUnder_right div {
+    margin-left: 0.03rem;
+  }
+  .likes,
+  .views {
+    font-size: 0.1rem;
+    font-weight: 400;
+  }
+  .icon-like,
+  .icon-view {
+    width: 0.1rem;
+    margin-bottom: 0.02rem;
+  }
+  .badge {
+    font-size: 0.1rem;
+    font-weight: 600;
+    color: seashell;
+    background-color: rgb(203, 203, 203);
+    border-radius: 0.02rem;
+  }
+}

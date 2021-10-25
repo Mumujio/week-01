@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  width: 10rem;
+  height: 100%;
+}
+/*图片自适应*/
+img {
+  height: auto;
+  width: auto\9;
+  width: 100%;
+}
+
+/*菜单展开响应*/
+@media screen and (min-width: 375px) and (max-width:920px){
+  .nav_unFold {
+    display: none!important;
+  }
+}
+@media screen and (min-width: 920px) {
+
+  nav {
+    visibility: hidden!important;
+  }
+}
