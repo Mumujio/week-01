@@ -1,7 +1,10 @@
 /*920px*/
 
-/* 导航区域*/
 @media screen and (min-width: 920px) {
+  #meunUnflod {
+    display: none !important;
+  }
+  /* 导航区域*/
   .nav_unFold {
     position: fixed;
     top: 0%;
@@ -29,10 +32,9 @@
   .nav_unFold_left div:nth-child(n + 2) {
     font-size: 0.2rem;
   }
-  .nav_unFold_left div:nth-child(n + 2):hover{
-    color:rgb(218,174,195);
+  .nav_unFold_left div:nth-child(n + 2):hover {
+    color: rgb(218, 174, 195);
     cursor: pointer;
-
   }
   .nav_unFold_right {
     display: flex;
@@ -58,7 +60,6 @@
     font-weight: 600;
     color: rgb(119, 116, 130);
   }
-  
 
   /*signUp区域*/
   .signUp-botton div:nth-child(1) {

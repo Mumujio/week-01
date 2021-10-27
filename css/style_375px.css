@@ -1,7 +1,18 @@
 /*375px*/
 
 @media screen and (min-width: 375px) {
-
+  #nav_close{
+    position: relative;
+  }
+  #icon-close{
+    position: absolute;
+    top:2.5%;
+    left: 5.4%;
+    width:.7rem;
+  } 
+  #icon-close img:hover{
+    cursor: pointer;
+  }
   /* 导航区域*/
   nav {
     display: flex;
@@ -13,10 +24,16 @@
   nav .logo-black {
     width: 2rem;
   }
-
   nav .icon-meun {
     width: 0.4rem;
   }
+  nav .icon-meun:hover {
+    cursor: pointer;
+  }
+  nav .icon-meun img:hover {
+    background-color: rgb(218, 174, 195);
+  }
+
   nav .signIn {
     font-size: 0.35rem;
     font-weight: 400;
@@ -32,7 +49,7 @@
     margin-bottom: 0.5rem;
     background-color: rgb(249, 248, 253);
   }
-  
+
   .banner img {
     height: 100%;
     width: 90%;
@@ -67,7 +84,7 @@
     display: grid;
     grid-template-columns: 1fr;
     width: 90%;
-    
+
     margin: 0 auto;
   }
   .cover img {

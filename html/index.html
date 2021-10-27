@@ -15,12 +15,22 @@
     <link rel="stylesheet" href="../css/style_1366px.css" />
     <link rel="stylesheet" href="../css/style_1920px.css" />
     <script src="../js/flexible.js"></script>
+    <script src="../js/style.js"></script>
   </head>
 
   <body>
+    <!-- 折叠部分 -->
+    <div id="nav_close">
+      <div id="icon-close"><img src="../imgs/icon-close.svg" alt="" /></div>
+      <div id="meunUnflod"><img src="../imgs/task-menu-375w.jpg" alt="" /></div>
+    </div>
+
     <!-- 菜单未展开 -->
+
     <nav>
-      <div class="icon-meun"><img src="../imgs/icon-menu.svg" alt="" /></div>
+      <div class="icon-meun" id="icon-meun1">
+        <img src="../imgs/icon-menu.svg" alt="" />
+      </div>
       <div class="logo-black"><img src="../imgs/logo-black.svg" alt="" /></div>
       <div class="signIn">Sign in</div>
     </nav>
@@ -44,7 +54,10 @@
     <section class="signUp">
       <div class="banner"><img src="../imgs/banner.jpg" alt="" /></div>
       <div class="signUp-botton">
-        <div>Discover the world's top<br /> designers & creatives</div>
+        <div>
+          Discover the world's top<br />
+          designers & creatives
+        </div>
         <div>
           Dribbble is the leading destination to find &<br />showcase creative
           work and home to the<br />

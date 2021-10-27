@@ -12,6 +12,9 @@ img {
   width: auto\9;
   width: 100%;
 }
+#nav_close{
+  display: none;
+}
 
 /*菜单展开响应*/
 @media screen and (min-width: 375px) and (max-width:920px){
